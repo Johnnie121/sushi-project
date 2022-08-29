@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home{
+    position: relative;
+}
+.homei{
+  /*  background-image: url("project pictures/restaurant 1.jpg"); */
+    height: 100vh;
+    overflow: hidden;
+}
+.welcome{
+    position: absolute;
+    width: 830px;
+    height: 75px;
+    left: 309px;
+    top: 168px;
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 75px;
+    color: #fff;
+}
+.span{
+    font-weight: 600;
+}
+.welcome-note{
+    position: absolute;
+    width: 822px;
+    height: 62px;
+    left: 309px;
+    top: 292px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 25px;
+    line-height: 31px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.button, .two{
+    position: absolute;
+    width: 180px;
+    height: 55px;
+    left: 710px;
+    top: 408px;
+    background: #FFFFFF;
+    border-radius: 2px;
+    border: none;
+}
+.one{
+  /*  position: absolute;
+    width: 200px;
+    height: 65px;
+    left: 730px;
+    top: 548px;*/
+    background: #FFFFFF;
+    border-radius: 2px;
+    position: absolute;
+    width: 180px;
+    height: 55px;
+    left: 510px;
+    top: 408px;
+    background: #FFFFFF;
+    border-radius: 2px;
+    border: none;
+}
+a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font: inherit;
+    font-size: 20px;
+}
+.body{
+    position: relative;
+}
+.sidebar{
+    position: absolute;
+    background-color: black;
+    width: 150px;
+    height: 580px;
+    margin-left: 90px;
+    margin-top: 30px;
+    border-radius: 24px;
+}
+ul{
+    text-align: center;
+
+}
+ul :hover{
+    background-color: #F1D5BB;
+    color: black;
+    
+}
+ul :last-child{
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    padding-bottom:21.7px;
+}
+ul :first-child{
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+}
+li{
+    padding: 23px;
+    color: #fff;
+    list-style: none;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.material-icons{
+    font-weight: bold;
+    font-size: xx-large;
+}
+.sign{
+    color: #F1D5BB;
+}
+.foodcontent{
+    position: absolute;
+    display: grid;
+    left: 330px ;
+    margin-top: 110px; ;
+   /* flex-wrap: wrap;
+    justify-content: space-between; */
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-rows: 40% 40%;
+    gap: 40px 60px;
+}
+.image{
+    width: 144px;
+height: 185px;
+}
+.image:hover{
+    border: solid red;
+}
+.menunote{
+    position: absolute;
+    left: 330px;
+    top: 20px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 33px;
+    line-height: 63px;
+    text-transform: uppercase;
+}
+.underline{
+    background-color: #F1D5BB;
+    padding-top: 4px;
+    width: 200px;
+    height: 2px;
+    display: block;
+    position: absolute;
+    left: 330px;
+    top: 72px;
+}
+.foodname{
+    text-align: center;
+    font-size: small;
+} 
+.more{position: absolute;
+    color: #fff;
+    background-color: black;
+    width: 150px;
+    height: 40px;
+    top: 450px;
+    left: 310px;
+    border-radius: 2px;
+    font: 100;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+.end{
+    position: absolute;
+    top: 610px ;
+    left: 330px;
+    font-weight: 100;
+    font-size: small;  
+}
+.cart{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 330px ;
+    margin-top: 120px; ;
+    background-color: #F1D5BB;
+    padding: 30px;
+}
+.images{
+     width:60px ;
+     border-radius: 50%;
+     
+}
+.foodnames{
+    float: right;
+    margin-top: 19px;
+}
+.names{
+    margin-left:97px;
+}
+.order{
+    background-color: #fff;
+    padding: 9px;
+    color: #000;
+    margin: 2px;
+}
+.purchase{
+    position: absolute;
+    left: 810px;
+    top: 120px;
+    text-transform: capitalize;
+    border: #F1D5BB solid;
+}
+.price{
+    background: #F1D5BB;
+    padding: 17px;
+}
+.totalll{
+    padding-top: 25px;
+    font-family: inherit;
+    font-size: large;
+    font-weight: 500;
+    word-spacing: 2px;
+}
+.press{
+    width: 250px;
+    height: 45px;
+    margin-top: 17px;
+    background-color: #000;
+    color:#fff;
+    font-size: large;
+    text-transform: capitalize;
+    margin-bottom: 8px;
+}
+.apply{
+    width: 90px;
+    height: 42px;
+    margin-top: 17px;
+    background-color: #000;
+    color:#fff;
+    font-size: large;
+    text-transform: capitalize;
+}
+.last{
+    padding-top: 15px;
+    padding-bottom: 26px;
+    padding-left: 16px;
+}
+input{
+    display: block;
+    width: 250px;
+    height: 45px;
+    margin-top: 5px;
+}
+.underliner{
+    background-color: #F1D5BB;
+    padding-top: 4px;
+    width: 90px;
+    height: 2px;
+    display: block;
+    position: absolute;
+    left: 330px;
+    top: 72px;
+}
+.times{
+    padding-left: 29px;
+    font-weight: 700;
+    font: 800;
+    font-size: larger;
+}
+::placeholder{
+    margin: 3px;
+    padding-left: 5px;
+    font-size: large;
+}
